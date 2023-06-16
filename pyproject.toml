@@ -1,0 +1,18 @@
+
+[project]
+name = "retry_decorators"
+version = "0.1.0"
+description = "Decorator higher order function for retrying functionality"
+authors = [
+    {name = "Luis Jesús Díaz Manzo", email = "luis@drconopoima.com"},
+]
+dependencies = [
+    "python-dotenv>=1",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
